@@ -1,3 +1,10 @@
+# DemoApp
+
+DemoApp 是一個展示 ChartComponents 圖表組件庫功能的示例應用。
+
+## 目錄結構
+
+```bash
 DemoApp/
 ├── src/
 │ ├── App.tsx
@@ -7,21 +14,17 @@ DemoApp/
 ├── vite.config.ts
 ├── index.html
 └── README.md
+```
 
-# 使用說明
-
-1. 安裝依賴
+## 快速開始
 
 ```bash
+# 安裝依賴
 npm install
-```
 
-2. 啟動開發伺服器
-
-```bash
+# 開發模式
 npm run dev
+
+# 建置專案
+npm run build
 ```
-
-3. 訪問應用程式
-
-開啟瀏覽器並訪問 `http://localhost:5173`，即可看到應用程式運行。
